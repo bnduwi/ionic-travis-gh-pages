@@ -5,6 +5,7 @@ node_js:
 branches:
   only:
   - master
+  - gh-pages
 
 before_script:
   - npm install -g ionic cordova
